@@ -1,8 +1,8 @@
 # LVI-Detection
 
-This repository contains code and models for detecting Lymphovascular Invasion (LVI) in breast cancer tissues using deep learning techniques. 
+This repository contains code and models for detecting Lymphovascular Invasion (LVI) in breast cancer whole-slide images (WSIs) using deep learning. 
 
-## Table of Contents
+## 📌 Table of Contents
 
 - [Overview](#overview)
 - [Framework](#framework)
@@ -10,9 +10,26 @@ This repository contains code and models for detecting Lymphovascular Invasion (
 - [Acknowledgements](#acknowledgements)
 - [Reference](#reference)
 
-## Overview
+## 🧠 Overview
 
-LVI is a crucial feature in breast cancer, linked to a higher risk of metastasis and poorer prognosis. Manual detection is labor-intensive and prone to variability. This project uses deep learning models, specifically Swin-Transformer and GigaPath, to automate LVI detection in whole-slide images of breast cancer tissue. Trained and evaluated on 90 annotated H&E-stained breast cancer slides, the best model achieved an AUC of 97%, a sensitivity of 79%, and an average of 8 false positives per slide, demonstrating the potential of these models to improve diagnostic accuracy and consistency.
+Lymphovascular Invasion (LVI) is a critical pathological feature in breast cancer, strongly associated with tumor metastasis and poor prognosis. However, manual LVI identification is:
+
+  - Time-consuming
+  - Subject to inter-observer variability
+  - Difficult in large whole-slide images
+
+This project proposes an automated LVI detection framework based on deep learning, leveraging:
+
+  - Swin Transformer (Swin-Small) for patch-level classification
+  - GigaPath for scalable whole-slide inference
+
+The models were trained and evaluated on 90 annotated H&E-stained breast cancer WSIs, achieving:
+
+  - AUC: 97%
+  - Sensitivity: 79%
+  - False positives: ~8 per slide
+
+These results demonstrate the potential of deep learning to improve accuracy, consistency, and efficiency in LVI assessment.
 
 ## Framework
 
