@@ -1,6 +1,6 @@
 # LVI-Detection
 
-This repository contains code and models for detecting Lymphovascular Invasion (LVI) in breast cancer whole-slide images (WSIs) using deep learning. 
+This repository contains code and models for detecting **Lymphovascular Invasion (LVI)** in breast cancer whole-slide images (WSIs) using deep learning. 
 
 ## 📌 Table of Contents
 
@@ -21,26 +21,26 @@ Lymphovascular Invasion (LVI) is a critical pathological feature in breast cance
   - Subject to inter-observer variability
   - Difficult in large whole-slide images
 
-This project proposes an automated LVI detection framework based on deep learning, leveraging:
+This project proposes an **automated LVI detection** framework based on deep learning, leveraging:
 
   - Swin Transformer (Swin-Small) for patch-level classification
   - GigaPath for scalable whole-slide inference
 
-The models were trained and evaluated on 90 annotated H&E-stained breast cancer WSIs, achieving:
+The models were trained and evaluated on **90 annotated H&E-stained breast cancer WSIs**, achieving:
 
-  - AUC: 97%
-  - Sensitivity: 79%
-  - False positives: ~8 per slide
+  - **AUC:** 97%
+  - **Sensitivity:** 79%
+  - **Average false positives:** ~8 per slide
 
-These results demonstrate the potential of deep learning to improve accuracy, consistency, and efficiency in LVI assessment.
+These results demonstrate the potential of deep learning to improve **accuracy, consistency, and efficiency** in LVI assessment.
 
 <a name="data"></a>
 
 ## 📂 Data
 
-- Slides: H&E-stained breast cancer whole-slide images.
-- Annotations: LVI foci annotated by two expert pathologists.
-- Consensus: Disagreements resolved by a third pathologist.
+- **Slides:** H&E-stained breast cancer whole-slide images.
+- **Annotations:** LVI foci annotated by two expert pathologists.
+- **Consensus:** Disagreements resolved by a third pathologist.
 
 ⚠️ Due to privacy and data-sharing restrictions, the dataset is not publicly available.
 Please contact the authors for access or use your own annotated WSIs following the same format.
@@ -76,7 +76,7 @@ This project builds upon the following open-source resources:
   - GigaPath: https://github.com/prov-gigapath/prov-gigapath
   - timm (PyTorch Image Models): https://github.com/huggingface/pytorch-image-models
 
-We thank the authors and maintainers for making their code and pre-trained weights publicly available. The original implementations were adapted to support LVI detection in breast cancer WSIs.
+We thank the authors and maintainers for making their code and pre-trained weights publicly available. The original implementations were adapted to support **LVI detection in breast cancer WSIs.**
 
 <a name="reference"></a>
 
