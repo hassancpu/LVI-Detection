@@ -11,6 +11,8 @@ This repository contains code and models for detecting Lymphovascular Invasion (
 - [Acknowledgements](#acknowledgements)
 - [Reference](#reference)
 
+<a name="overview"></a>
+
 ## 🧠 Overview
 
 Lymphovascular Invasion (LVI) is a critical pathological feature in breast cancer, strongly associated with tumor metastasis and poor prognosis. However, manual LVI identification is:
