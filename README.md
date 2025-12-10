@@ -5,11 +5,13 @@ This repository contains code and models for detecting Lymphovascular Invasion (
 ## 📌 Table of Contents
 
 - [Overview](#overview)
+- [Data](#data)
 - [Framework](#framework)
 - [Results](#results)
 - [Acknowledgements](#acknowledgements)
 - [Reference](#reference)
 
+a name="overview"></a>
 ## 🧠 Overview
 
 Lymphovascular Invasion (LVI) is a critical pathological feature in breast cancer, strongly associated with tumor metastasis and poor prognosis. However, manual LVI identification is:
@@ -30,6 +32,17 @@ The models were trained and evaluated on 90 annotated H&E-stained breast cancer 
   - False positives: ~8 per slide
 
 These results demonstrate the potential of deep learning to improve accuracy, consistency, and efficiency in LVI assessment.
+
+a name="data"></a>
+## 📂 Data
+
+- Slides: H&E-stained breast cancer whole-slide images.
+- Annotations: LVI foci annotated by two expert pathologists.
+- Consensus: Disagreements resolved by a third pathologist.
+
+⚠️ Due to privacy and data-sharing restrictions, the dataset is not publicly available.
+Please contact the authors for access or use your own annotated WSIs following the same format.
+
 
 ## Framework
 
